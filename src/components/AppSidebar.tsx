@@ -24,7 +24,7 @@ import {
 
 const navigationItems = [
   { title: "Home", url: "/", icon: Home },
-  { title: "Technology", url: "/technology", icon: Code },
+  { title: "Musings on India", url: "/technology", icon: Code },
   { title: "Philosophy", url: "/philosophy", icon: Lightbulb },
   { title: "Psychology", url: "/psychology", icon: Users },
   { title: "Business", url: "/business", icon: TrendingUp },
