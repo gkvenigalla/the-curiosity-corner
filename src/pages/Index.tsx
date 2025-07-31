@@ -1,13 +1,11 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { ArrowRight, BookOpen, Lightbulb, Target } from "lucide-react"
-import { Link } from "react-router-dom"
-import heroImage from "@/assets/hero-knowledge.jpg"
-
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { ArrowRight, BookOpen, Lightbulb, Target } from "lucide-react";
+import { Link } from "react-router-dom";
+import heroImage from "@/assets/hero-knowledge.jpg";
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-muted/20 to-accent/10">
+  return <div className="min-h-screen bg-gradient-to-br from-background via-muted/20 to-accent/10">
       {/* Hero Section */}
       <section className="relative px-6 lg:px-8 py-12 lg:py-20">
         <div className="max-w-6xl mx-auto">
@@ -18,14 +16,15 @@ const Index = () => {
                   Gopi Krishna Venigalla
                 </Badge>
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Welcome to Gopi's
+                  Welcome to the
                   <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
                     {" "}Curiosity Corner
                   </span>
                 </h1>
                 <p className="text-xl text-muted-foreground leading-relaxed">
                   A curated collection of thoughts, insights, and discoveries across technology, 
-                  philosophy, business, and life.
+                  philosophy, psychology, business, and life. Join me on this journey of 
+                  continuous learning and exploration.
                 </p>
               </div>
               
@@ -36,21 +35,13 @@ const Index = () => {
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
-                <Button asChild variant="outline" size="lg" className="border-border hover:bg-muted">
-                  <Link to="/learning">
-                    Learning Methods
-                  </Link>
-                </Button>
+                
               </div>
             </div>
             
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 rounded-2xl blur-3xl"></div>
-              <img 
-                src="/lovable-uploads/d24f51fe-946e-43c1-b5f2-2e4609e391f6.png"
-                alt="Gopi Krishna Venigalla - Professional Portrait"
-                className="relative w-full h-auto rounded-2xl shadow-elegant object-cover"
-              />
+              <img src="/lovable-uploads/d24f51fe-946e-43c1-b5f2-2e4609e391f6.png" alt="Gopi Krishna Venigalla - Professional Portrait" className="relative w-full h-auto rounded-2xl shadow-elegant object-cover" />
             </div>
           </div>
         </div>
@@ -108,8 +99,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
