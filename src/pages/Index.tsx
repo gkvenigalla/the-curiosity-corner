@@ -15,7 +15,7 @@ const Index = () => {
             <div className="space-y-8">
               <div className="space-y-4">
                 <Badge className="bg-primary/10 text-primary border-primary/20 hover:bg-primary/20">
-                  Personal Knowledge Base
+                  Gopi Krishna Venigalla
                 </Badge>
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
                   Welcome to the
