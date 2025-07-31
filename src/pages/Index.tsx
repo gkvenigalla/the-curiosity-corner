@@ -25,8 +25,7 @@ const Index = () => {
                 </h1>
                 <p className="text-xl text-muted-foreground leading-relaxed">
                   A curated collection of thoughts, insights, and discoveries across technology, 
-                  philosophy, business, and life. <br />
-                  Know about me or Read my latest observations.
+                  philosophy, business, and life.
                 </p>
               </div>
               
