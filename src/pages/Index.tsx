@@ -18,7 +18,7 @@ const Index = () => {
                   Gopi Krishna Venigalla
                 </Badge>
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Welcome to the
+                  Welcome to Gopi's
                   <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
                     {" "}Curiosity Corner
                   </span>
