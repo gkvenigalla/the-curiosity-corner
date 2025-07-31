@@ -25,8 +25,8 @@ const Index = () => {
                 </h1>
                 <p className="text-xl text-muted-foreground leading-relaxed">
                   A curated collection of thoughts, insights, and discoveries across technology, 
-                  philosophy, psychology, business, and life. Join me on this journey of 
-                  continuous learning and exploration.
+                  philosophy, business, and life. <br />
+                  Know about me or Read my latest observations.
                 </p>
               </div>
               
