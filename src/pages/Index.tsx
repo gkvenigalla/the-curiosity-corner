@@ -48,8 +48,8 @@ const Index = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 rounded-2xl blur-3xl"></div>
               <img 
-                src={heroImage}
-                alt="Knowledge and Learning"
+                src="/lovable-uploads/d24f51fe-946e-43c1-b5f2-2e4609e391f6.png"
+                alt="Gopi Krishna Venigalla - Professional Portrait"
                 className="relative w-full h-auto rounded-2xl shadow-elegant object-cover"
               />
             </div>
