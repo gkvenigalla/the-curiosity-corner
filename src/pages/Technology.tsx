@@ -5,9 +5,9 @@ const Technology = () => {
   return (
     <div className="max-w-4xl mx-auto p-6 lg:p-8">
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-foreground mb-3">Technology</h1>
+        <h1 className="text-3xl font-bold text-foreground mb-3">Technology & AI</h1>
         <p className="text-lg text-muted-foreground">
-          Exploring the latest in software development, emerging technologies, and digital innovation.
+          Exploring artificial intelligence, emerging technologies, software development, and digital innovation.
         </p>
       </div>
 
@@ -15,14 +15,14 @@ const Technology = () => {
         <Card className="shadow-soft hover:shadow-elegant transition-shadow duration-300">
           <CardHeader>
             <div className="flex items-center justify-between">
-              <CardTitle className="text-xl">Getting Started</CardTitle>
+              <CardTitle className="text-xl">AI & Innovation</CardTitle>
               <Badge variant="secondary">Coming Soon</Badge>
             </div>
           </CardHeader>
           <CardContent>
             <p className="text-muted-foreground">
-              This section will contain my notes and articles about technology trends, 
-              programming concepts, and technical insights.
+              Deep dives into artificial intelligence, machine learning, software engineering, 
+              and the transformative impact of technology on society.
             </p>
           </CardContent>
         </Card>
@@ -30,9 +30,9 @@ const Technology = () => {
         <Card className="shadow-soft">
           <CardContent className="pt-6">
             <p className="text-muted-foreground text-center py-8">
-              Ready for your first technology article! 
+              Explore the frontiers of technology and AI.
               <br />
-              Start writing about your favorite tech topics here.
+              Share insights on digital transformation and innovation.
             </p>
           </CardContent>
         </Card>

@@ -1,13 +1,13 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 
-const Philosophy = () => {
+const Professional = () => {
   return (
     <div className="max-w-4xl mx-auto p-6 lg:p-8">
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-foreground mb-3">Philosophy</h1>
+        <h1 className="text-3xl font-bold text-foreground mb-3">Professional Topics</h1>
         <p className="text-lg text-muted-foreground">
-          Deep thoughts on life, ethics, consciousness, and the fundamental questions that shape our existence.
+          Career insights, industry trends, professional development, and workplace wisdom.
         </p>
       </div>
 
@@ -15,14 +15,14 @@ const Philosophy = () => {
         <Card className="shadow-soft hover:shadow-elegant transition-shadow duration-300">
           <CardHeader>
             <div className="flex items-center justify-between">
-              <CardTitle className="text-xl">Philosophical Inquiries</CardTitle>
+              <CardTitle className="text-xl">Career Development</CardTitle>
               <Badge variant="secondary">Coming Soon</Badge>
             </div>
           </CardHeader>
           <CardContent>
             <p className="text-muted-foreground">
-              This space is reserved for exploring philosophical concepts, ethical dilemmas, 
-              and the timeless questions that have puzzled humanity.
+              Thoughts on career growth, professional skills, leadership, and navigating 
+              the modern workplace landscape.
             </p>
           </CardContent>
         </Card>
@@ -30,9 +30,9 @@ const Philosophy = () => {
         <Card className="shadow-soft">
           <CardContent className="pt-6">
             <p className="text-muted-foreground text-center py-8">
-              Begin your philosophical journey here.
+              Share your professional experiences and insights.
               <br />
-              Share your thoughts on existence, morality, and meaning.
+              Document lessons learned and career wisdom.
             </p>
           </CardContent>
         </Card>
@@ -41,4 +41,4 @@ const Philosophy = () => {
   )
 }
 
-export default Philosophy
+export default Professional
