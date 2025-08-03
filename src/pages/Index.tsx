@@ -16,7 +16,7 @@ const Index = () => {
                   Gopi Krishna Venigalla
                 </Badge>
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Welcome to the
+                  Welcome to my
                   <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
                     {" "}Curiosity Corner
                   </span>
@@ -51,8 +51,7 @@ const Index = () => {
               Explore Knowledge Domains
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Dive deep into various subjects and discover insights that shape our understanding 
-              of the world and ourselves.
+              Find below the latest posts or Navigate to your interested topic from the Menu on the Left side.
             </p>
           </div>
           
