@@ -21,11 +21,7 @@ const Index = () => {
                     {" "}Curiosity Corner
                   </span>
                 </h1>
-                <p className="text-xl text-muted-foreground leading-relaxed">
-                  A curated collection of thoughts, insights, and discoveries across technology, 
-                  philosophy, psychology, business, and life. Join me on this journey of 
-                  continuous learning and exploration.
-                </p>
+                <p className="text-xl text-muted-foreground leading-relaxed">A curated collection of thoughts, insights, and discoveries across technology, philosophy, psychology, business, and life.</p>
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
