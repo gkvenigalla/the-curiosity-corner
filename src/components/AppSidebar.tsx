@@ -1,13 +1,12 @@
 import { NavLink, useLocation } from "react-router-dom"
 import {
-  BookOpen,
+  Home,
+  Briefcase,
   Map,
-  Lightbulb,
-  Users,
+  Cpu,
   TrendingUp,
-  Heart,
-  Zap,
-  Home
+  HelpCircle,
+  User
 } from "lucide-react"
 
 import {
@@ -24,13 +23,12 @@ import {
 
 const navigationItems = [
   { title: "Home", url: "/", icon: Home },
-  { title: "Musings on India", url: "/technology", icon: Map },
-  { title: "Philosophy", url: "/philosophy", icon: Lightbulb },
-  { title: "Psychology", url: "/psychology", icon: Users },
-  { title: "Business", url: "/business", icon: TrendingUp },
-  { title: "Health & Wellness", url: "/health", icon: Heart },
-  { title: "Productivity", url: "/productivity", icon: Zap },
-  { title: "Learning", url: "/learning", icon: BookOpen },
+  { title: "Professional Topics", url: "/professional", icon: Briefcase },
+  { title: "Musings on India", url: "/india", icon: Map },
+  { title: "Technology & AI", url: "/technology", icon: Cpu },
+  { title: "Business & Investments", url: "/business", icon: TrendingUp },
+  { title: "Tough Questions", url: "/questions", icon: HelpCircle },
+  { title: "About Me", url: "/about", icon: User },
 ]
 
 export function AppSidebar() {
