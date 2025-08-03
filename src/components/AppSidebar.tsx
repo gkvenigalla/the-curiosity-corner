@@ -57,7 +57,7 @@ export function AppSidebar() {
           </h1>
           {!isCollapsed && (
             <p className="text-sm text-sidebar-foreground/70 mt-1">
-              Personal Knowledge Base
+              Gopi's Reflections
             </p>
           )}
         </div>
