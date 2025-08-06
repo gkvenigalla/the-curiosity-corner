@@ -1,5 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+import { ArticleList } from "@/components/ArticleList"
 
 const Questions = () => {
   return (
@@ -11,32 +10,7 @@ const Questions = () => {
         </p>
       </div>
 
-      <div className="space-y-6">
-        <Card className="shadow-soft hover:shadow-elegant transition-shadow duration-300">
-          <CardHeader>
-            <div className="flex items-center justify-between">
-              <CardTitle className="text-xl">Deep Inquiries</CardTitle>
-              <Badge variant="secondary">Coming Soon</Badge>
-            </div>
-          </CardHeader>
-          <CardContent>
-            <p className="text-muted-foreground">
-              Exploring difficult questions about life, society, ethics, and human nature 
-              that require careful consideration and nuanced thinking.
-            </p>
-          </CardContent>
-        </Card>
-
-        <Card className="shadow-soft">
-          <CardContent className="pt-6">
-            <p className="text-muted-foreground text-center py-8">
-              Pose and explore challenging questions.
-              <br />
-              Dive into complex issues that demand deeper reflection.
-            </p>
-          </CardContent>
-        </Card>
-      </div>
+      <ArticleList category="questions" />
     </div>
   )
 }

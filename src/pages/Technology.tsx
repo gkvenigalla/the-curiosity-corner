@@ -1,5 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+import { ArticleList } from "@/components/ArticleList"
 
 const Technology = () => {
   return (
@@ -11,32 +10,7 @@ const Technology = () => {
         </p>
       </div>
 
-      <div className="space-y-6">
-        <Card className="shadow-soft hover:shadow-elegant transition-shadow duration-300">
-          <CardHeader>
-            <div className="flex items-center justify-between">
-              <CardTitle className="text-xl">AI & Innovation</CardTitle>
-              <Badge variant="secondary">Coming Soon</Badge>
-            </div>
-          </CardHeader>
-          <CardContent>
-            <p className="text-muted-foreground">
-              Deep dives into artificial intelligence, machine learning, software engineering, 
-              and the transformative impact of technology on society.
-            </p>
-          </CardContent>
-        </Card>
-
-        <Card className="shadow-soft">
-          <CardContent className="pt-6">
-            <p className="text-muted-foreground text-center py-8">
-              Explore the frontiers of technology and AI.
-              <br />
-              Share insights on digital transformation and innovation.
-            </p>
-          </CardContent>
-        </Card>
-      </div>
+      <ArticleList category="technology" />
     </div>
   )
 }

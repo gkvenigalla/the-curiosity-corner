@@ -1,5 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+import { ArticleList } from "@/components/ArticleList"
 
 const India = () => {
   return (
@@ -11,32 +10,7 @@ const India = () => {
         </p>
       </div>
 
-      <div className="space-y-6">
-        <Card className="shadow-soft hover:shadow-elegant transition-shadow duration-300">
-          <CardHeader>
-            <div className="flex items-center justify-between">
-              <CardTitle className="text-xl">Cultural Observations</CardTitle>
-              <Badge variant="secondary">Coming Soon</Badge>
-            </div>
-          </CardHeader>
-          <CardContent>
-            <p className="text-muted-foreground">
-              Insights into Indian traditions, modern transformations, and the rich 
-              tapestry of life across diverse regions and communities.
-            </p>
-          </CardContent>
-        </Card>
-
-        <Card className="shadow-soft">
-          <CardContent className="pt-6">
-            <p className="text-muted-foreground text-center py-8">
-              Share your thoughts and observations about India.
-              <br />
-              Explore the complexity and beauty of Indian society.
-            </p>
-          </CardContent>
-        </Card>
-      </div>
+      <ArticleList category="india" />
     </div>
   )
 }

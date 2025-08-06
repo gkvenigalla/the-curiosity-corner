@@ -11,6 +11,7 @@ import Technology from "./pages/Technology";
 import Business from "./pages/Business";
 import Questions from "./pages/Questions";
 import About from "./pages/About";
+import Admin from "./pages/Admin";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/business" element={<Layout><Business /></Layout>} />
           <Route path="/questions" element={<Layout><Questions /></Layout>} />
           <Route path="/about" element={<Layout><About /></Layout>} />
+          <Route path="/admin" element={<Layout><Admin /></Layout>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
