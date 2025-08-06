@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, BookOpen, Lightbulb, Target } from "lucide-react";
 import { Link } from "react-router-dom";
+import { RecentArticles } from "@/components/RecentArticles";
 import heroImage from "@/assets/hero-knowledge.jpg";
 const Index = () => {
   return <div className="min-h-screen bg-gradient-to-br from-background via-muted/20 to-accent/10">
@@ -42,6 +43,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Recent Articles Section */}
+      <RecentArticles />
 
       {/* Features Section */}
       <section className="px-6 lg:px-8 py-16">
