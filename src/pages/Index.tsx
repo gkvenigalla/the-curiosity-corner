@@ -4,11 +4,20 @@ import { Badge } from "@/components/ui/badge";
 import { ArrowRight, BookOpen, Lightbulb, Target } from "lucide-react";
 import { Link } from "react-router-dom";
 import { RecentArticles } from "@/components/RecentArticles";
+import { VisitCounter } from "@/components/VisitCounter";
 import heroImage from "@/assets/hero-knowledge.jpg";
 const Index = () => {
-  return <div className="min-h-screen bg-gradient-to-br from-background via-muted/20 to-accent/10">
-      {/* Hero Section */}
-      <section className="relative px-6 lg:px-8 py-12 lg:py-20">
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-background via-muted/20 to-accent/10">
+      {/* SEO Header - Hidden but crawlable */}
+      <header className="sr-only">
+        <h1>Gopi Krishna Venigalla - Curiosity Corner</h1>
+        <p>Technology, Business, Philosophy, and Life Insights</p>
+      </header>
+      
+      <main>
+        {/* Hero Section */}
+        <section className="relative px-6 lg:px-8 py-12 lg:py-20">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
@@ -44,11 +53,11 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Recent Articles Section */}
-      <RecentArticles />
+        {/* Recent Articles Section */}
+        <RecentArticles />
 
-      {/* Features Section */}
-      <section className="px-6 lg:px-8 py-16">
+        {/* Features Section */}
+        <section className="px-6 lg:px-8 py-16">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
@@ -97,7 +106,16 @@ const Index = () => {
             </Card>
           </div>
         </div>
-      </section>
-    </div>;
+        </section>
+
+        {/* Visit Counter Section */}
+        <section className="px-6 lg:px-8 py-8 border-t border-border/50">
+          <div className="max-w-6xl mx-auto">
+            <VisitCounter />
+          </div>
+        </section>
+      </main>
+    </div>
+  );
 };
 export default Index;
